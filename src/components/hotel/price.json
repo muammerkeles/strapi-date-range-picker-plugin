@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_hotel_prices",
+  "info": {
+    "displayName": "Price",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
