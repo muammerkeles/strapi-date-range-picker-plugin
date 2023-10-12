@@ -10,14 +10,17 @@ import {
     FieldHint,
     FieldError,
     FieldLabel,
+    TextInput,
 } from "@strapi/design-system";
 
 import moment from 'moment';
 
 const DateField = ({
     attribute,
+    placeholder,
     description,
     error,
+    disabled,
     intlLabel,
     labelAction,
     name,
@@ -57,19 +60,23 @@ const DateField = ({
             required={required}
         >
             <Flex direction="column" alignItems="stretch" gap={1}>
-                <FieldLabel action={labelAction}>{formatMessage(intlLabel)}</FieldLabel>
+                <FeldLabel action={labelAction}>{formatMessage(intlLabel)}</FieldLabel>
                 <Flex>
-                    <div>
-                        <input type="text"
-                            value={JSON.stringify(dates) ?? ""}
-                            readOnly={true}
-                            placeholder="dates" />
-                        <input type="text"
-                            value={value ?? ""}
-                            readOnly={true}
-                            placeholder="dates" />
+                    <TextInput
+                        disabled={disabled}
+                        error={error}
+                        hint={description ? formatMessage(description) : ''}
+                        label={intlLabel ? formatMessage(intlLabel) : ''}
+                        name={name}
+                        onChange={(event) => { onChange({ target: { name, value: event.target.value, type: 'string' } }) }}
+                        placeholder={placeholder ? formatMessage(placeholder) : ''}
+                        required={required}
 
-                    </div>
+                        type="text"
+                        value={JSON.stringify(dates) ?? ''}
+                        readOnly={true}
+                        />
+                    
                 </Flex>
                 <Flex>
                     <DateRangePicker

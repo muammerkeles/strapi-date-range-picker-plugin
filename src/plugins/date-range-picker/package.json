@@ -1,7 +1,10 @@
 {
-  "name": "date-range-picker",
+  "name": "strapi-custom-date-range-picker-field",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
+  "git repository":"https://github.com/muammerkeles/strapi-date-range-picker-plugin.git",
+  "entry point":"index.js",
+  "test command":"",
   "strapi": {
     "name": "date-range-picker",
     "description": "Description of Date Range Picker plugin",
@@ -29,11 +32,11 @@
     "styled-components": "^5.3.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Muammer K. a Strapi developer"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Muammer K. a Strapi developer"
     }
   ],
   "engines": {
