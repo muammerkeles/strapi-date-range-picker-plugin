@@ -1,27 +1,45 @@
 {
-  "name": "admin-em",
-  "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+  "name": "strapi-custom-date-range-picker-field",
+  "version": "0.0.2",
+  "description": "This package allows you to select a date range to use at Strapi adming as custom-field.",
+  "git repository":"https://github.com/muammerkeles/strapi-date-range-picker-plugin.git",
+  "entry point":"index.js",
+  "test command":"",
+  "keywords": ["Strapi custom field","Strapi Plugin","Strapi Date Range Picker Custom Field"],
+  "strapi": {
+    "name": "date-range-picker",
+    "description": "Description of Date Range Picker plugin",
+    "kind": "plugin",
+    "displayName": "Date Range Picker"
   },
   "dependencies": {
-    "@offset-dev/strapi-calendar": "^0.0.10",
-    "@strapi/plugin-i18n": "4.14.3",
-    "@strapi/plugin-users-permissions": "4.14.3",
-    "@strapi/strapi": "4.14.3",
-    "better-sqlite3": "8.6.0"
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "moment-range": "^4.0.2",
+    "prop-types": "^15.7.2",
+    "react-daterange-picker": "^2.0.1"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Muammer K. a Strapi developer"
   },
-  "strapi": {
-    "uuid": "761c2404-a645-4644-9738-f080d2d4078f"
-  },
+  "maintainers": [
+    {
+      "name": "Muammer K. a Strapi developer"
+    }
+  ],
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
