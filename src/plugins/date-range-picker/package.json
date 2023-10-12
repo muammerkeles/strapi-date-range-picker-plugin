@@ -1,6 +1,6 @@
 {
   "name": "strapi-custom-date-range-picker-field",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is the description of the plugin.",
   "git repository":"https://github.com/muammerkeles/strapi-date-range-picker-plugin.git",
   "entry point":"index.js",
