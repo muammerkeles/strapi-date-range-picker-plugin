@@ -3,9 +3,9 @@
 module.exports = ({ strapi }) => {
   // register phase
   strapi.customFields.register({
-    name: "date-range",
-    plugin: "date-range-picker",
-    type: "text",
+    name: "date-range-pickert",
+    plugin: "strapi-date-range-picker-plugin",
+    type: "string",
     inputSize: {
       // optional
       default: 4,

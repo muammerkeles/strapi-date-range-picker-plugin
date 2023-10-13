@@ -3,8 +3,6 @@ import pluginPkg from '../../package.json';
 import pluginId from './pluginId';
 import Initializer from './components/Initializer';
 import PluginIcon from './components/PluginIcon';
-import DateField from './components/CustomDateField';
-import mutateEditViewHook from "./mutateEditViewHook";
 const name = pluginPkg.strapi.name;
 
 export default {
@@ -36,26 +34,25 @@ export default {
       name,
     });
     app.customFields.register({
-      name: "date-range",
-      plugin: "date-range-picker",
+      name:"date-range-picker",
+      /*plugin: name,// "strapi-custom-date-range-picker-field",
+      */
       pluginId: pluginId,
-      type: "string",
+      type: "text",
       intlLabel: {
-        id: "daterange.tag.label",
-        defaultMessage: "DateRangePicker",
+        id: "date.range.picker.label",
+        defaultMessage: "Date Range Picker",
       },
       intlDescription: {
-        id: "daterange.tag.description",
+        id: "date.range.picker.description",
         defaultMessage: "Date Range Picker to add custom field",
       },
       components: {
         Input: async () =>
           import(
-            /* webpackChunkName: "input-component" */ "./components/CustomDateField"
+            "./components/CustomDateField"
           ),
-      },
-      //Component: DateField,
-      //type: pluginId
+      }
     })
   },
 

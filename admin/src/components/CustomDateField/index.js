@@ -60,7 +60,6 @@ const DateField = ({
             required={required}
         >
             <Flex direction="column" alignItems="stretch" gap={1}>
-                <FeldLabel action={labelAction}>{formatMessage(intlLabel)}</FieldLabel>
                 <Flex>
                     <TextInput
                         disabled={disabled}
