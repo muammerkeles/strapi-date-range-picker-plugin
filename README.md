@@ -14,7 +14,7 @@ It's ready.
 
 This date-range-picker plugin allows you to select a data range. 
 
-Watch video:
+Watch the video:
 
 [video-convert-1697204432099.webm](https://github.com/muammerkeles/strapi-date-range-picker-plugin/assets/6603435/207f242d-5aaf-4872-86ee-4c98578705ef)
 
