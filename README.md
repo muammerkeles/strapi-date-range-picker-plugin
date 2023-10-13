@@ -12,7 +12,7 @@ install npm package
 
 It's ready.
 
-This date-range-picker plugin allows you to select a data range. 
+This date-range-picker plugin allows you to select a data range in one CustomField instead of adding two seperate field. 
 
 Watch the video:
 
