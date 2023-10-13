@@ -1,12 +1,18 @@
-# Strapi plugin date-range-picker
+# Strapi plugin - date-range-picker  BETA
 
+Strapi Custom Field for Date Range 
+
+[GitHub](https://github.com/muammerkeles/strapi-date-range-picker-plugin) - [npm](https://www.npmjs.com/package/strapi-date-range-picker-plugin)
+
+How to use?
+
+install npm package 
 
 `npm i strapi-date-range-picker-plugin`
 
+It's ready.
 
-This date range picker plugin allows yo select a range of dates. 
-I created it which needed a way to select date ranges for Strapi admin as Custom Field.
-
+This date-range-picker plugin allows you to select a data range. 
 
 [video-convert-1697204432099.webm](https://github.com/muammerkeles/strapi-date-range-picker-plugin/assets/6603435/207f242d-5aaf-4872-86ee-4c98578705ef)
 
