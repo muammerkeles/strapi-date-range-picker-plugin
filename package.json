@@ -1,6 +1,6 @@
 {
   "name": "strapi-date-range-picker-plugin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This package allows you to select a date range to use at Strapi adming as custom-field.",
   "git repository":"https://github.com/muammerkeles/strapi-date-range-picker-plugin.git",
   "entry point":"index.js",
@@ -27,6 +27,7 @@
     "styled-components": "^5.3.6"
   },
   "peerDependencies": {
+    "@strapi/strapi": "^4.15.2",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^5.3.4",
