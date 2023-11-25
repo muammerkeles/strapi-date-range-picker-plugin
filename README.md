@@ -10,6 +10,23 @@ install npm package
 
 `npm i strapi-date-range-picker-plugin`
 
+then add this inside **plugins.js**
+(create file **plugins.js** if not existing inside **config** folder)
+
+config/plugin.js
+```
+module.exports = {
+    // ...
+    'strapi-date-range-picker-plugin': {
+      enabled: true, 
+      resolve: '@/src/plugins/strapi-date-range-picker-plugin'
+
+    },
+    // ...
+  }
+```
+_npm run build --clean_
+
 It's ready.
 
 This date-range-picker plugin allows you to select a data range in one CustomField instead of adding two seperate field. 
