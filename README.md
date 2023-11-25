@@ -13,7 +13,7 @@ install npm package
 then add this inside **plugins.js**
 (create file **plugins.js** if not existing inside **config** folder)
 
-config/plugin.js
+config/plugins.js
 ```
 module.exports = {
     // ...
