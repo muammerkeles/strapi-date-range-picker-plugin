@@ -34,10 +34,13 @@ export default {
       name,
     });
     app.customFields.register({
-      name:"date-range-picker",
+      name,
+//      name:"date-range-picker",
       /*plugin: name,// "strapi-custom-date-range-picker-field",
       */
-      pluginId: pluginId,
+      id: pluginId,
+
+      //pluginId: pluginId,
       type: "text",
       intlLabel: {
         id: "date.range.picker.label",
