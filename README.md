@@ -1,4 +1,10 @@
-# Strapi plugin - date-range-picker  BETA
+# This repo is going to be archived. 
+Follow the link for newer version capable Strapi V5
+
+[Strapi Date Range Picker 5](https://github.com/muammerkeles/strapi-date-range-picker-5)
+
+-- 
+## Strapi plugin - date-range-picker  BETA
 
 Strapi Custom Field for Date Range 
 
