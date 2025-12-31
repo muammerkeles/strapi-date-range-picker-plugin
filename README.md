@@ -32,7 +32,7 @@ config/plugins.js
 ```
 module.exports = {
     // ...
-    'strapi-date-range-picker-plugin': {
+    'date-range-picker': {
       enabled: true
     },
     // ...
